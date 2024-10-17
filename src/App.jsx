@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./Counter";
+import Friends from "./Friends";
 import Team from "./Team";
 import User from "./User";
 
@@ -17,6 +18,7 @@ function App() {
   };
   return (
     <>
+      <Friends></Friends>
       <User></User>
       <Team></Team>
       <Counter></Counter>
